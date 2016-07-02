@@ -1,0 +1,351 @@
+[ ] July 15, 10:40pm - 8:00am, 9.4 hours
+[ ] July 16, 12:20am - 8:30am, 8 hours
+[ ] July 17, 11:15pm - 10:00am, 10.75 hours
+[ ] July 18, 12:10am - 09:20am, 9 hours
+[ ] July 19, 11:30pm - 8:00am, 8.5 hours
+[ ] July 20, 12:15am - 8:30am, 8.25 hours
+[ ] July 21, 10:15pm - 08:15am, 10 hours
+[ ] July 22, 10:10pm - 7:35am, 9.5 hours
+[ ] July 23, 11:20pm - 7:25am, 8 hours
+[ ] July 24, 10:00pm - 7:40am, 9.7 hours
+[ ] July 25, 10:00pm - 7:40am, 9.7 hours
+[ ] July 26, 9:55pm - 7:20am, 9.4 hours
+[ ] July 27, 9:40pm - 6:50am, 8 hours
+[ ] July 28, 9:35pm - 6:00am, 9 hours
+[ ] July 29, 9:40pm - 6:30am, 8.5 hours
+[ ] July 30, 11:20pm - 6:50 am, 7.5 hours
+[ ] July 31, 9:40pm - 9:10am, 9 hours
+[ ] August 1, 9:45pm - 7:25am, 9.5 hours
+[ ] August 2, 9:30pm - 8:40am, 10.75 hours
+[ ] August 3, 9:35pm - 6:45am, 8.75 hours
+[ ] August 4, 9:25pm - 6:25am, 8.5 hours
+[ ] August 5, 11:40pm - 7:10am, 7 hours, bad
+[ ] August 6, 8:20pm - 6:50am, 10 hours, good
+[ ] August 7, 8:40pm - 6:30am, 9.5 hours, good
+[ ] August 8, 8:55pm - 6:45am, 9.5 hours, good
+[ ] August 9, 8:55pm - 7:15am, 10 hours, good
+[ ] August 10, 9:40pm - 6:40am, 8.5 hours, good
+[ ] August 11, 8:35pm - 7:00am, 10 hours, good
+[ ] August 12, 8:35pm - 6:20am, 9.5 hours, great
+[ ] August 13, 11:15pm - 8:30am, 8.5 hours, bad
+[ ] August 14, 8:20pm - 7:05am, 10 hours, good
+[ ] August 15, 8:50pm - 6:50am, 9.5 hours, good
+[ ] August 16, 8:50pm - 6:40am, 9.5 hours, good
+[ ] August 17, 9:30pm - 6:40am, 9 hours broken OK
+[ ] August 18, 8:35pm - 7:15am, 10.25 hours, OK
+[ ] August 19, 8:45pm - 7:05am, 10 hours, good
+[ ] August 20, 8:35pm - 6:30am, 9.5 hours, good
+[ ] August 21, 8:10pm - 6:15am, 9.5 hours, good
+[ ] August 22, 8:25pm - 6:00am, 9 hours, good
+[ ] August 23, 9:25pm - 6:35am, 8.4 hours, goodish
+[ ] August 24, 9:30pm - 7:00am, 9 hours, goodish
+[ ] August 25, 8:10pm - 6:15am, 9.5 hours, good
+[ ] August 26, 8:45pm - 7:00am, 10 hours, goodish
+[ ] August 27, 8:40pm - 7:00am, 10 hours, good, fap
+[ ] August 28, 9:35pm - 7:35am, 9.5 hours, ok-ish
+[ ] August 29, 9:55pm - 6:45am, 8.5 hours, good
+[ ] August 30, 9:45pm - 7:20am, 9 hours, decent
+[ ] August 31, 8:30pm - 7:45am, 10.5 hours, good
+[ ] September 1, 9:50pm - 7:00am, 8.5 hours, okish
+[ ] September 2, 9:15pm - 7:15am, 9.5 hours, good
+[ ] September 3, 8:45pm - 6:30am, 9 hours, good
+[ ] September 4, 8:45pm - 7:00am, 9 hours, ok, tooth broke
+[ ] September 5, 8:55pm - 7:05am, 9.5 hours, good
+[ ] September 6, 8:45pm - 7:30am 10.5 hours, sluggish
+[ ] September 7, 9:10pm - 6:45am, 9 hours, good
+[ ] September 8, 8:50pm - 7:15am, 9 hours
+[ ] September 9, 9:10pm - 7:20am, 9 hours, good, fap
+[ ] September 10, 9:00pm - 7:35am, 10 hours
+[ ] September 11, 10:15pm - 7:45am, 8.5 hours, good
+[ ] September 12, 8:55pm - 8:25am, 11 hours broken sleep
+[ ] September 13, 8:50pm - 7:00am, 9.5 hours, good
+[ ] September 14, 9:00pm - 6:30am, 9 hours, good
+[ ] September 15, 9:20pm - 7:00am, 9 hours, good
+[ ] September 16, 9:05pm - 6:55am, 9 hours, decent
+[ ] September 17, 9:15pm - 6:45am, 8 hours, good
+[ ] September 18, 9:05pm - 7:50am, 10 hours, good
+[ ] September 19, 9:20pm - 8:15am, 10.5 hours, good
+[ ] September 20, 9:05pm - 7:05am, 9.5 hours, good
+[ ] September 21, 9:10pm - 6:50am, 9 hours, good
+[ ] September 22, 9:15pm - 7:00am, 9 hours, good
+[ ] September 23, 9:10pm - 6:50am, 9 hours, good
+[ ] September 24, 8:40pm - 6:50am, 9 hours, good
+[ ] September 25, 10:30pm - 5:30am, 6.5 hours, fapx2, bad
+[ ] September 26, 9:10pm - 7:45am, 10 hours, good
+[ ] September 27, 8:50pm - 6:50am, 9.5 hours, good
+[ ] September 28, 9:00pm - 7:00am, 9 hours, good
+[ ] September 29, 9:50pm - 7:15am, 9 hours, late dinner, horrible
+[ ] September 30, 8:50pm - 6:50am, 9.5 hours, OK-ish sleepy
+[ ] October 1, 8:20pm - 7:20am, 10.5 hours, good
+[ ] October 2, 8:35pm - 7:15am, 10 hours, good
+[ ] October 3, 8:50pm - 7:45am, 10.5 hours, good
+[ ] October 4, 9:25pm - 7:20am, 9 hours, great
+[ ] October 5, 8:30pm - 6:50am, 9.5 hours, great
+[ ] October 6, 9:00pm - 7:30am, 9 hours, good
+[ ] October 7, 9:00pm - 7:20am, 9 hours, grumpy
+[ ] October 8, 8:35pm - 7:00am, 10 hours, good
+[ ] October 9, 10:10pm - 7:30am, 9 hours, nice anal, good
+[ ] October 10, 9:45pm - 7:50am, 9.5 hours, good
+[ ] October 11, 10:00pm - 7:50am, 9 hours, good
+[ ] October 12, 8:30pm - 6:40am, 9 hours, nightmare, good day
+[ ] October 13, 8:50pm - 7:20am, 10 hours, good
+[ ] October 14, 9:10pm - 7:00am, 8 hours, OK
+[ ] October 15, 10:00pm - 7:40am, 9 hours, good
+[ ] October 16, 8:20pm - 7:20am, 10.5 hours, good
+[ ] October 17, 10:10pm - 8:20am, 10.5 hours, good
+[ ] October 18, 8:50pm - 7:30am, 10 hours, good
+[ ] October 19, 10:30pm - 7:00am, 8 hours, badish
+[ ] October 20, 10:55pm - 7:40am, 8 hours, bad-ish
+[ ] October 21, 9:20pm - 7:30am, 9.5 hours, good
+[ ] October 22, 9:45pm - 7:40am, 9 hours, good
+[ ] October 23, 9:20pm - 8:00pm, 10 hours, good
+[ ] October 24, 9:20pm - 7:40am, 9.5 hours, ok
+[ ] October 24, 9:35pm - 7:40pm, 9.5 hours, good
+[ ] October 26, 8:45pm - 7:10am, 9 hours, great
+[ ] October 27, 8:35pm - 7:00am, 9 hours, great
+[ ] October 28, 9:00pm - 6:30am, 9 hours, good
+[ ] October 29, 8:55pm - 6:55am, 10 hours, meh
+[ ] October 30, 11:00pm - 8:00am, 8 hours, good
+[ ] October 31, 9:40pm - 6:00am, 9 hours, OK
+[ ] November 1, 8:20pm - 6:00, 9 hours, great
+[ ] November 2, 9:00pm - 6:30am, 9 hours, good
+[ ] November 3, 9:40pm - 7:20am, 9 hours, good
+[ ] November 4, 9:00pm - 7:20am, 10 hours, good
+[ ] November 5, 9:50pm - 7:45am, 10 hours, good
+[ ] November 6, 9:30pm - 7:30am, 9 hours, OK
+[ ] November 7, 9:50pm - 7:30am, 9 hours, OK
+[ ] November 8, 10:50pm - 7:30am, 8 hours, bad
+[ ] November 9, 9:15pm - 7:30am, 9.5 hours, good
+[ ] November 10, 9:20pm - 7:20am, 9.5 hours, good
+[ ] November 11, 9:15pm - 7:20am, 9.5 hours, good
+[ ] November 12, 9:20pm - 7:30am, 9.5 hours, great
+[ ] November 13, 9:50pm - 7:50am, 9.5 hours, good
+[ ] November 14, 8:55pm - 8:30am, relapsed, feel like shit
+[ ] November 15, 11:05pm - 8:00am, 8 hours, OK
+[ ] November 16, 10:00pm - 7:30am, 8.5 hours, OK
+[ ] November 17, 12:30am - 8:30am, 7.5 hours, terrible
+[ ] November 18, 8:00pm -7:20am, 11 hours, good
+[ ] November 19, 8:40pm - 7:15am, 10 hours, ok
+[ ] November 20, 4:00am - 10:30am, 6 hours, total shit
+[ ] November 21, 10:06pm - 7:30am, 9 hours, okish
+[ ] November 22, 8:40pm - 8:00am, 10.5 hours, ok
+[ ] November 23, 9:30pm - 7:20am, 9 hours, good
+[ ] November 24, 9:25pm - 7:30am, 9 hours, OK
+[ ] November 25, 8:30pm - 7:45am, 10.5 hours, great
+[ ] November 26, 9:10pm - 7:20am, 10 hours, good
+[ ] November 27, 9:55pm -7:00am, 8.5 hours, OK
+[ ] November 28, 9:45pm - 7:50am, 9.5 hours, bad
+[ ] November 29, 8:30pm - 7:30am, 10.5 hours, great
+[ ] November 30, 9:10pm - 7:30am, 9.5 hours, good
+[ ] December 1, 9:05pm - 8:05am, 8.5 hours, anal, below average
+[ ] December 2, 8:30pm - 7:00am, 10 hours, great
+[ ] December 3, 8:35pm - 7:30am, 10.5 hours, OK
+[ ] December 4, 9:00pm - 7:15am, 9.5 hours, good
+[ ] December 5, 11:45pm - 8:00am, 8 hours, OK
+[ ] December 6, 9:10pm - 7:10am, 9 hours, decent
+[ ] December 7 8:20pm - 7:45am, 10.5 hours, great
+[ ] December 8, 8:40pm -6:40am, 9 hours, OK
+[ ] December 9, 8:30pm - 7:00am, 7 hours, horrible
+[ ] December 10, 10:20pm - 8:00am, 9 hours, recovering
+[ ] December 11, 8:45pm - 8:45am, 11.5 hours, good
+[ ] December 12, 9:25pm - 8:00am, 10 hours, bad
+[ ] December 13, 8:35pm - 11:00pm anal no cum - 8:00am, great
+[ ] December 14, 9:05pm - 7:30am, 10 hours, good
+[ ] December 15, 9:00pm - 8:00am, 10 hours, great
+[ ] December 16, 8:45pm - 7:45am, 9 hours, good
+[ ] December 17, 9:30pm - 6:30am, 8 hours, good
+[ ] December 18, 7:10pm - 8:30am,2am airport, tired
+[ ] December 19, 9:30pm - 8:30am, 10.5 hours, good
+[ ] December 20, 9:30pm - 3:00am, 6 hours, terrible
+[ ] December 21, 9:10pm - 8:45am, 10.5 hours, wet dream, good
+[ ] December 22, 9:10pm - 7:15am, 9.5 hours, okish
+[ ] December 23, 9:35pm - 7:00am, 9 hours, good
+[ ] December 24, 12:30am - 10:30am, 9 hours, broken, OK
+[ ] December 25, 11:00pm - 7:30am, 8 hours, OK
+[ ] December 26, 10:15pm - 8:00am, 9.5 hours, good
+[ ] December 27, 10:00pm - 8:00am, 9.5 hours, good
+[ ] December 28, 10:20pm - 7:50am, 9 hours, good
+[ ] December 29, 10:00pm - 7:30am, 9 hours, good
+[ ] December 30, 10:10pm - 8:40am, 10 hours, good
+[ ] December 31, 1:00am - 9:00am, 7.5 hours, OK
+[ ] January 1, 12:00am - 9:20am, 9 hours, badish
+[ ] January 2, 10:25pm, 1:00am - 9:00am, 7 hours, utter shit
+[ ] January 3, 8:50pm - 7:10am, 9.5 hours, good
+[ ] January 4, 11:30pm - 7:30am, 8 hours, good
+[ ] January 5, 10:00pm - 7:20am, 9 hours, OK
+[ ] January 6, 9:50pm - 6:50am, 8.5 hours, decent
+[ ] January 7, 9:50pm - 7:25am, 9 hours, ok
+[ ] January 8, 9:50pm - 7:55am, 9.5 hours, good
+[ ] January 9, 9:30pm, 12:30am - 9:40am, 9 hours, badish
+[ ] January 10, 9:50pm - 7:40am, 9.5 hours, good
+[ ] January 11, 11:00pm - 7:45am, 8.5 hours, okish
+[ ] January 12, 9:55pm - 7:55am, 9.5 hours, good
+[ ] January 13, 9:50pm - 7:15am, 9 hours, OK
+[ ] January 14, 9:57pm - 6:45am, 8.5 hours, OK
+[ ] January 15, 9:45pm, 11:15pm - 8:20am, 9 hours, total shit
+[ ] January 16, 8:30pm - 7:20am, 10 hours, shit utter shitt
+[ ] January 17, 8:45pm, 9:35pm - 7:25am, 9.5 hours, great
+[ ] January 18, 11:40pm - 7:30am, 7.5 hours, good
+[ ] January 19, 11:00pm - 7:45am, 8 hours, OK, relapsed hard
+[ ] January 20, 9:50pm - 7:40am, 9.5 hours, ok
+[ ] January 21, 9:25pm - 7:40am, 10 hours, ok
+[ ] January 22, 8:25pm - 7:10am, 10.5 hours, good
+[ ] January 23, 8:45pm - 8:35am, 11.5 hours, alright
+[ ] January 24, 8:45pm - 7:30am, 10.5 hours, good
+[ ] January 25, 10:45pm - 8:15am, 9 hours, good
+[ ] January 26, 10:00pm - 7:35am, 9 hours, ok
+[ ] January 27, 8:40pm, 2:30am - 9:00am, 6 hours, good enough
+[ ] January 28, 9:35pm - 7:40am, 9.5 hours, decent
+[ ] January 29, 8:55pm, 10:30pm - 8:30am, 9.5 hours, goood
+[ ] January 30, 8:30pm, 11:00pm - 7:50am, 9 hours, decent
+[ ] January 31, 10:15pm - 7:50am, 9 hours, alright
+[ ] February 1, 11:00pm - 7:45am, 8.5 hours, ok
+[ ] February 2, 9:55pm - 7:40am, 9.5 hours, tough fight urges
+[ ] February 3, 9:25pm - 7:45am, 10 hours, great
+[ ] February 4, 9:25pm - 7:30am, 9.5 hours, bad
+[ ] February 5, 9:25pm - 8:45am, 10.5 hours, good useless
+[ ] February 6, 10:50pm - 8:40am, 9.5 hours, good
+[ ] February 7, 9:30pm - 9:00am, 11 hours, alright
+[ ] February 8, 10:40pm - 7:35am, 8.5 hours, ok
+[ ] February 9, 10:35pm - 7:55am, 9 hours, good
+[ ] February 10, 10:15pm - 3:00am, 5:40am - 7:50am, 6 hours broken, feel like utter shit
+[ ] February 11, 7:50pm - 7:40am, 11.5 hours, good
+[ ] February 12, 11:15pm - 7:50am, 8.5 hours, alright, cold
+[ ] February 13, 9:45pm - 8:15am, 10 hours, shit cold
+[ ] February 14, 9:45pm, 12:00am - 8:00am, 8 hours, bad
+[ ] February 15, 7:20pm - 7:30am, 12 hours, good
+[ ] February 16, 10:10pm - 6:30am, 8 hours, good
+[ ] February 17, 10:00pm - 7:30am, 9 hours, OK
+[ ] February 18, 9:35pm - 7:05am, 9 hours, good
+[ ] February 19, 9:40pm - 8:10am, 10 hours, good
+[ ] February 20, 11:00 - 7:55am, 8 hours, bad
+[ ] February 21, 8:35pm - 7:55am, 11 hours, good
+[ ] February 22, 9:45pm - 7:00am, 9 hours, decent
+[ ] February 23, 9:25pm - 6:50am, 9 hours, good
+[ ] February 24, 9:00pm - 8:00am, 10.5 hours, good
+[ ] February 25, 9:00pm - 7:25am, 9 hours, bad
+[ ] February 26, 9:15pm - 7:10am, 9 hours, good
+[ ] February 27, 9:46pm - 7:50am, 9 hours, bad
+[ ] February 28, 11:06pm - 7:40am, 8 hours, good
+[ ] February 29, 10:10pm - 7:05am, 8.5 hours, good
+[ ] March 1, 9:35pm - 7:30am, 9.5 hours, good
+[ ] March 2, 9:45pm - 7:00am, 9 hours, okay
+[ ] March 3, 9:01pm - 6:15am, 9 hours, good
+[ ] March 4, 9:50pm - 7:15am, 9 hours, good
+[ ] March 5, 9:35pm - 7:30am, 9 hours, good
+[ ] March 6, 8:30pm - 7:15am, 10 hours, good
+[ ] March 7, 10:02pm - 7:30am, 9 hours, bad decisions
+[ ] March 8, 9:20pm, 11:00pm - 7:20am, 8 hours, decent
+[ ] March 9, 9:42pm - 8:00am, 10 hours, ok
+[ ] March 10, 8:11pm - 6:24am, 10 hours, good
+[ ] March 11, 10:02pm - 7:30am, 9 hours, alright
+[ ] March 12, 10:00pm - 9:40am, 11 hours, alright
+[ ] March 13, 8:56pm - 9:00am, 11.5 hours, cs break good
+[ ] March 14, 11:00pm - 8:50am, 9.5 hours, good
+[ ] March 15, 10:40pm - 8:10am, 9 hours, ok
+[ ] March 16, 12'05am - 8:20am, 8 hours, alright
+[ ] March 17, 8:52pm - 8:37am, 11 hours, good
+[ ] March 18, 9:25pm - 7:40am, 9.5 hours, good
+[ ] March 19, 11:33pm - 9:00am, 9 hours, good
+[ ] March 20, 8:30pm - 7:20am, 10.5 hours, good
+[ ] March 21, 10:57pm - 7:30am, 8 hours, good
+[ ] March 22, 9:44pm - 7:30am, 9.5 hours, good
+[ ] March 23, 9:18pm - 7:25am, 9.5 hours, good
+[ ] March 24, 8:53pm - 7:50am, 10.5 hours, meh
+[ ] March 25, 9:40pm - 11:30pm - 8:45am, 9.5 hours, good
+[ ] March 26, 9:34pm - 7:57am, 9.5 hours, good
+[ ] March 27, 10:56pm - 7:44am, 8.5 hours, good
+[ ] March 28, 10:54pm - 6:43am 7.5 hours, meh
+[ ] March 29, 10:20pm - 6:56am, 8 hours, good
+[ ] March 30, 9:56pm - 6:50am, 8.5 hours, alright
+[ ] March 31, 10:33pm - 7:45am,  8.5 hours, decent
+[ ] April 1, 9:38pm - 7:00am, 9 hours, ok
+[ ] April 2, 9:53pm - 7:12am, 8.5 hours, shit
+[ ] April 3, 9:46pm - 7:20am, 9 hours, alright
+[ ] April 4, 10:06pm - 7:53am, 9 hours, good
+[ ] April 5, 9:54pm - 7:50am, 9.5 hours, good
+[ ] April 6, 10:00pm - 7:40am, 9.5 hours, good
+[ ] April 6, 11:05pm - 8:18am, 8.5 hours, good
+[ ] April 8, 10:00pm - 8:30am, 10 hours, good
+[ ] April 9, 11:21pm - 9:05am, 9 hours, ok
+[ ] April 10, 10:04pm - 9:30am, 11 hours, ok
+[ ] April 11, 9:55pm - 7:30am, 9.5 hours, OK
+[ ] April 12, 10:53pm - 7:30am, 8 hours, badish
+[ ] April 13, 9:21pm - 7:40am, 9.5 hours, good
+[ ] April 14, 9:55pm - 7:30am, 9 hours, good
+[ ] April 15, 9:30pm - 6:20am, 8.5 hours, good
+[ ] April 16, 8:30pm - 6:15am, 9 hours good
+[ ] April 17, 10:10pm - 8:20am, 9 hours, alright
+[ ] April 18, 11:00pm - 7:20am, 8 hours, ok
+[ ] April 19, 9:20pm - 7:25am, 9.5 hours, good
+[ ] April 20, 9:45pm - 7:00am, 9 hours, alright
+[ ] April 21, 9:42pm - 6:30am, 8.5 hours, good
+[ ] April 22, 10:23pm - 7:30am, 9 hours, decent
+[ ] April 23, 9:52pm - 6:35am, 8.5 hours, ok
+[ ] April 24, 9:55pm - 7:00am, 8.5 hours, ok
+[ ] April 25, 9:57pm - 6:50am, 8.5 hours, good
+[ ] April 26, 10:04pm - 6:50am, 8.5 hours, ok
+[ ] April 27, 10:00pm - 7:40am,9 hours, good
+[ ] April 28, 10:36pm - 6:56am, 8 hours, could be better
+[ ] April 29, 9:52pm - 6:40am, 8.5 hours, good
+[ ] April 30, 10:06pm - 7:15am, 8.5 hours, OK
+[ ] May 1, 9:41pm - 7:15am, 9 hours, decent turns shit
+[ ] May 2, 12:16am - 8:50am, 8 hours, decent
+[ ] May 3, 10:30pm - 8:00am, 9 hours, OK
+[ ] May 4, 10:53pm - 9:30am, 10 hours, decent
+[ ] May 5, 10:00pm - 8:05am, 9.5 hours, good
+[ ] May 6, 10:10pm - 8:05am, 9 hours, okish
+[ ] May 7, 10:06pm - 8:00am, 9 hours, good
+[ ] May 8, 10:38pm - 7:24am, 8.5 hours, badish
+[ ] May 9, 9:41pm - 7:30am, 9 hours, good->bad
+[ ] May 10, 9:20pm - 7:20am, 9.6 hours, sick
+[ ] May 11, 8:35pm - 6:40am, 9.5 hours, headache
+[ ] May 12, 8:41pm - 6:40am, 9.5 hours, sick
+[ ] May 13, 8:43pm - 7:30am, 10.5 hours, bad sick
+[ ] May 14, 6:00pm - 6:50am, 12 hours, better->sick
+[ ] May 15, 8:04pm - 6:00am, 9 hours, good
+[ ] May 16, 10:04pm - 7:27am, 9 hours, good
+[ ] May 17, 9:20pm - 7:35am, 9.5 hours, decent
+[ ] May 18, 9:15pm - 7:30am, 10 hours, OK
+[ ] May 19, 10:10pm - 7:43am, 9 hours, OK
+[ ] May 20, 10:15pm - 9:00am, 10 hours, decent
+[ ] May 21, 9:48pm - 8:00am, 10 hours, good
+[ ] May 22, 10:08pm - 7:30am, 9 hours, alright
+[ ] May 23, 10:25pm - 8:00am, 9 hours, decent
+[ ] May 24, 10:12pm - 7:45am, 9 hours, good
+[ ] May 25, 9:55pm - 7:45am, 9.5 hours, alright
+[ ] May 26, 10:18pm - 7:40am, 9 hours, good
+[ ] May 27, 9:23pm - 8:20am, 10 hours, good
+[ ] May 28, 10:15pm - 8:15am, 9 hours, bad sleep heat
+[ ] May 29, 9:51pm - 8:00am, 9.5 hours, good
+[ ] May 31, 10:30pm - 7:45am, 9 hours, bad
+[ ] June 1, 10:45pm - 9:45am, 10.5 hours, OK
+[ ] June 2, 10:45pm - 8:45am, 9.5 hours, alright
+[ ] June 3, 10:35pm - 9:00am, 10 hours, OK
+[ ] June 4, 10:30pm - 9:00am, 10 hours, alright
+[ ] June 5, 1:00am - 9:35am, 8 hours, OK
+[ ] June 6, 12:30am - 9:00am, 8 hours, OK
+[ ] June 7, 11:56pm - 9:30am, 9 hours, okish
+[ ] June 8, 10:56pm - 8:30am, 9 hours, good
+[ ] June 9, 11:00pm - 9:30am, 10 hours, good
+[ ] June 10, 10:36pm - 9:00am, 10 hours, good
+[ ] June 11, 11:20pm - 9:40am, 10 hours, bad
+[ ] June 12, 9:40pm - 8:30am, 10.5 hours, bad
+[ ] June 13, 10:50pm - 9:25am, 10 hours, good
+[ ] June 14, 10:42pm - 8:20am, 9 hours, decentish
+[ ] June 15, 10:06pm - 7:50am, 9.5 hours, alright
+[ ] June 16, 10:00pm - 7:45am, 9.5 hours, good
+[ ] June 17, 10:08pm - 7:35am, 9 hours, bad
+[ ] June 18, 11:20pm - 7:45am, 8 hours, good
+[ ] June 19, 11:02pm - 8:25am, 9 hours, good
+[ ] June 20, 10:51pm - 8:25am, 9 hours, anxious
+[ ] June 21, 10:45pm - 8;30am, 9.5 hours, alright
+[ ] June 22, 10:27pm - 7:50am, 9 hours, meh
+[ ] June 23, 11:03pm - 8:15am, 9 hours, stuck
+[ ] June 24, 10:01pm - 8:30am, 10 hours, good
+[ ] June 25, 11:02pm - 8:45am, 9 hours, good
+[ ] June 26, 10:10pm - 6:30am, 8 hours, good
+[ ] June 27, 10:05pm - 7:00am, 6-8.5 hours, shit
+[ ] June 28, 10:30pm - 8:00am, 8.5-9 hours, bad
+[ ] June 29, 9:55pm - 8:00am, 9-9.5 hours, no input week, great
+[ ] June 30, 9:15pm - 8:50am, 10 hours
