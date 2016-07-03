@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Sleeper</string>
+    <string name="edit_message">Enter a string</string>
+    <string name="button_send">Send</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_yesterday"><![CDATA[<]]></string>
+    <string name="button_tomorrow"><![CDATA[>]]></string>
+    <string name="button_rise">Rise</string>
+    <string name="button_sleep">Sleep</string>
+    <string name="text_rise">Rise:</string>
+    <string name="text_sleep">Sleep:</string>
+    <string name="text_hours_slept">Hours slept:</string>
+    <string name="text_comments">Comments:</string>
 </resources>
