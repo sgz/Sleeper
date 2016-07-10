@@ -40,6 +40,7 @@
         android:gravity="center">
 
         <Button
+            android:id="@+id/button_rise"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="riseNow"
@@ -65,6 +66,7 @@
         android:gravity="center">
 
         <Button
+            android:id="@+id/button_sleep"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="sleepNow"
@@ -108,19 +110,23 @@
         android:gravity="center">
 
         <ToggleButton
+            android:id="@+id/button_bad"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="toggleBad" />
 
         <ToggleButton
+            android:id="@+id/button_ok"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="toggleOK" />
 
         <ToggleButton
+            android:id="@+id/button_good"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="toggleGood" />
+            android:onClick="toggleGood"
+            android:checked="false" />
     </LinearLayout>
 
     <!--Comments bar-->
