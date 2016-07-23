@@ -82,6 +82,8 @@ public class MainActivity extends AppCompatActivity {
     protected ToggleButton button_ok;
     protected ToggleButton button_good;
 
+    protected DayReaderContract.DayReaderDbHelper day_reader;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -98,6 +100,8 @@ public class MainActivity extends AppCompatActivity {
         button_bad = (ToggleButton) findViewById(R.id.button_bad);
         button_ok = (ToggleButton) findViewById(R.id.button_ok);
         button_good = (ToggleButton) findViewById(R.id.button_good);
+
+        day_reader = new DayReaderContract.DayReaderDbHelper(this);
 
         DisplayDay(days.get(dayIndex));
     }
