@@ -1,5 +1,6 @@
 package com.apps.serghei.sleeper;
 
+import android.app.TimePickerDialog;
 import android.content.Intent;
 import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.TimePicker;
 import android.widget.ToggleButton;
 
 import java.text.SimpleDateFormat;
@@ -19,8 +21,7 @@ import java.util.List;
 
 import javax.xml.datatype.DatatypeFactory;
 
-public class MainActivity extends AppCompatActivity
-        implements TimePickerFragment.OnTimeSelectedListener {
+public class MainActivity extends AppCompatActivity {
     public final static String EXTRA_MESSAGE = "com.apps.serghei.sleeper.MESSAGE";
 
     protected List<DayModel> days;
@@ -46,8 +47,6 @@ public class MainActivity extends AppCompatActivity
 
     protected DayReaderContract.DayReaderDbHelper day_reader;
     protected DayModel current_day;
-
-    private boolean setting_rise_time;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -212,7 +211,6 @@ public class MainActivity extends AppCompatActivity
 
     public void setRiseTime(View view) {
         int hour, minute;
-        setting_rise_time = true;
         if (current_day.RiseTime.getTimeInMillis() == 0) {
             hour = 0;
             minute = 0;
@@ -220,13 +218,21 @@ public class MainActivity extends AppCompatActivity
             hour = current_day.RiseTime.get(Calendar.HOUR_OF_DAY);
             minute = current_day.RiseTime.get(Calendar.MINUTE);
         }
-        DialogFragment newFragment = new TimePickerFragment(hour, minute);
+        DialogFragment newFragment = new TimePickerFragment(hour, minute, new TimePickerDialog.OnTimeSetListener() {
+            @Override
+            public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
+                current_day.RiseTime.set(Calendar.HOUR_OF_DAY, hourOfDay);
+                current_day.RiseTime.set(Calendar.MINUTE, minute);
+                SetRiseState(current_day.RiseTime);
+                UpdateHoursSlept(current_day);
+            }
+
+        });
         newFragment.show(getSupportFragmentManager(), "timePicker");
     }
 
     public void setSleepTime(View view) {
         int hour, minute;
-        setting_rise_time = false;
         if (current_day.SleepTime.getTimeInMillis() == 0) {
             hour = 0;
             minute = 0;
@@ -234,22 +240,16 @@ public class MainActivity extends AppCompatActivity
             hour = current_day.SleepTime.get(Calendar.HOUR_OF_DAY);
             minute = current_day.SleepTime.get(Calendar.MINUTE);
         }
-        DialogFragment newFragment = new TimePickerFragment(hour, minute);
-        newFragment.show(getSupportFragmentManager(), "timePicker");
-    }
+        DialogFragment newFragment = new TimePickerFragment(hour, minute, new TimePickerDialog.OnTimeSetListener() {
+            @Override
+            public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
+                current_day.SleepTime.set(Calendar.HOUR_OF_DAY, hourOfDay);
+                current_day.SleepTime.set(Calendar.MINUTE, minute);
+                SetSleepState(current_day.SleepTime);
+                UpdateHoursSlept(current_day);            }
 
-    public void onTimeSelected(int hourOfDay, int minute) {
-        if (setting_rise_time) {
-            current_day.RiseTime.set(Calendar.HOUR_OF_DAY, hourOfDay);
-            current_day.RiseTime.set(Calendar.MINUTE, minute);
-            SetRiseState(current_day.RiseTime);
-            UpdateHoursSlept(current_day);
-        } else {
-            current_day.SleepTime.set(Calendar.HOUR_OF_DAY, hourOfDay);
-            current_day.SleepTime.set(Calendar.MINUTE, minute);
-            SetSleepState(current_day.SleepTime);
-            UpdateHoursSlept(current_day);
-        }
+        });
+        newFragment.show(getSupportFragmentManager(), "timePicker");
     }
 
     public void showYesterday(View view) {
