@@ -47,12 +47,14 @@
             android:text="@string/button_rise"/>
 
         <TextView
+            android:id="@+id/rise_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/text_rise" />
 
         <TextView
             android:id="@+id/rise_time"
+            android:onClick="setRiseTime"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="rise time"/>
@@ -73,12 +75,14 @@
             android:text="@string/button_sleep" />
 
         <TextView
+            android:id="@+id/sleep_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/text_sleep" />
 
         <TextView
             android:id="@+id/sleep_time"
+            android:onClick="setSleepTime"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="sleep time"></TextView>

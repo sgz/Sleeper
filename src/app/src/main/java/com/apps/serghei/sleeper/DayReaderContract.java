@@ -124,13 +124,10 @@ public final class DayReaderContract {
             while(!c.isAfterLast()) {
                 DayModel day = new DayModel();
                 millis = c.getLong(c.getColumnIndex(DayEntry.COLUMN_NAME_CURRENT_DAY));
-                day.CurrentDay = GregorianCalendar.getInstance();
                 day.CurrentDay.setTimeInMillis(millis);
                 millis = c.getLong(c.getColumnIndex(DayEntry.COLUMN_NAME_RISE_TIME));
-                day.RiseTime = GregorianCalendar.getInstance();
                 day.RiseTime.setTimeInMillis(millis);
                 millis = c.getLong(c.getColumnIndex(DayEntry.COLUMN_NAME_SLEEP_TIME));
-                day.SleepTime = GregorianCalendar.getInstance();
                 day.SleepTime.setTimeInMillis(millis);
 
                 day.Comments = c.getString(c.getColumnIndex(DayEntry.COLUMN_NAME_COMMENTS));
