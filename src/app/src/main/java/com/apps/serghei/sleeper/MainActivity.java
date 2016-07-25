@@ -74,8 +74,10 @@ public class MainActivity extends AppCompatActivity {
     protected TextView text_day;
     protected Button button_rise;
     protected TextView text_rise;
+    protected TextView static_text_rise;
     protected Button button_sleep;
     protected TextView text_sleep;
+    protected TextView static_text_sleep;
     protected TextView text_hoursslept;
     protected TextView text_comments;
     protected ToggleButton button_bad;
@@ -83,6 +85,7 @@ public class MainActivity extends AppCompatActivity {
     protected ToggleButton button_good;
 
     protected DayReaderContract.DayReaderDbHelper day_reader;
+    protected DayModel current_day;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -93,8 +96,10 @@ public class MainActivity extends AppCompatActivity {
         text_day = (TextView) findViewById(R.id.current_day_text_view);
         button_rise = (Button) findViewById(R.id.button_rise);
         text_rise = (TextView) findViewById(R.id.rise_time);
+        static_text_rise = (TextView) findViewById(R.id.rise_text);
         button_sleep = (Button) findViewById(R.id.button_sleep);
         text_sleep = (TextView) findViewById(R.id.sleep_time);
+        static_text_sleep = (TextView) findViewById(R.id.sleep_text);
         text_hoursslept = (TextView) findViewById(R.id.hours_slept);
         text_comments = (TextView) findViewById(R.id.comments);
         button_bad = (ToggleButton) findViewById(R.id.button_bad);
@@ -103,14 +108,23 @@ public class MainActivity extends AppCompatActivity {
 
         day_reader = new DayReaderContract.DayReaderDbHelper(this);
 
-        DisplayDay(days.get(dayIndex));
+        days = day_reader.getAllDays();
+
+        if (days.size() == 0) {
+            current_day = new DayModel();
+            days.add(current_day);
+        } else {
+            current_day = days.get(days.size() - 1);
+        }
+
+        DisplayDay(current_day);
     }
 
-    public void DisplayDay(){
+    public void DisplayDay() {
         DisplayDay(null);
     }
 
-    public void SetTopDate(Calendar currentDate){
+    public void SetTopDate(Calendar currentDate) {
         if (currentDate == null) {
             currentDate = Calendar.getInstance();
         }
@@ -118,43 +132,56 @@ public class MainActivity extends AppCompatActivity {
         text_day.setText(text);
     }
 
-    public void SetRiseState(Calendar riseTime){
-        if(riseTime == null) {
+    public void SetRiseState(Calendar riseTime) {
+        if (riseTime.getTimeInMillis() == 0) {
             button_rise.setVisibility(View.VISIBLE);
             text_rise.setVisibility(View.GONE);
-        }else{
+            static_text_rise.setVisibility(View.GONE);
+        } else {
             button_rise.setVisibility(View.GONE);
             text_rise.setVisibility(View.VISIBLE);
+            static_text_rise.setVisibility(View.VISIBLE);
             text = hourFormat.format(riseTime.getTime());
             text_rise.setText(text);
         }
     }
 
-    public void SetSleepState(Calendar sleepTime){
-        if(sleepTime == null) {
+    public void SetSleepState(Calendar sleepTime) {
+        if (sleepTime.getTimeInMillis() == 0) {
             button_sleep.setVisibility(View.VISIBLE);
             text_sleep.setVisibility(View.GONE);
-        }else{
+            static_text_sleep.setVisibility(View.GONE);
+        } else {
             button_sleep.setVisibility(View.GONE);
             text_sleep.setVisibility(View.VISIBLE);
+            static_text_sleep.setVisibility(View.VISIBLE);
             text = hourFormat.format(sleepTime.getTime());
             text_sleep.setText(text);
         }
     }
 
-    public void SetHoursSlept(double hoursSlept){
-        if(hoursSlept > 0){
+    public void UpdateHoursSlept(DayModel day){
+        if(day.RiseTime.getTimeInMillis() != 0 &&
+                day.SleepTime.getTimeInMillis() != 0){
+            double millis = day.SleepTime.getTimeInMillis() -
+                            day.RiseTime.getTimeInMillis();
+            double hours = millis / (1000*60*60);
+            SetHoursSlept(hours);
+        }
+    }
+    public void SetHoursSlept(double hoursSlept) {
+        if (hoursSlept > 0) {
             text = String.format("%.1f", hoursSlept);
             text_hoursslept.setText(text);
         }
     }
 
-    public void SetComments(String comments){
+    public void SetComments(String comments) {
         text_comments.setText(comments);
     }
 
-    public void SetRating(int rating){
-        switch(rating){
+    public void SetRating(int rating) {
+        switch (rating) {
             case 0:
                 SetBadRating();
                 break;
@@ -167,19 +194,19 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void SetBadRating(){
+    public void SetBadRating() {
         button_bad.setChecked(true);
         button_ok.setChecked(false);
         button_good.setChecked(false);
     }
 
-    public void SetOKRating(){
+    public void SetOKRating() {
         button_bad.setChecked(false);
         button_ok.setChecked(true);
         button_good.setChecked(false);
     }
 
-    public void SetGoodRating(){
+    public void SetGoodRating() {
         button_bad.setChecked(false);
         button_ok.setChecked(false);
         button_good.setChecked(true);
@@ -209,14 +236,20 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void riseNow(View view) {
+        current_day.RiseTime = GregorianCalendar.getInstance();
+        SetRiseState(current_day.RiseTime);
+        UpdateHoursSlept(current_day);
     }
 
     public void sleepNow(View view) {
+        current_day.SleepTime = GregorianCalendar.getInstance();
+        SetSleepState(current_day.SleepTime);
+        UpdateHoursSlept(current_day);
     }
 
     public void showYesterday(View view) {
-        if(dayIndex > 0){
-            dayIndex-=1;
+        if (dayIndex > 0) {
+            dayIndex -= 1;
             DisplayDay(days.get(dayIndex));
         }
     }

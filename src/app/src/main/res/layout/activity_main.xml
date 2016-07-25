@@ -47,6 +47,7 @@
             android:text="@string/button_rise"/>
 
         <TextView
+            android:id="@+id/rise_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/text_rise" />
@@ -73,6 +74,7 @@
             android:text="@string/button_sleep" />
 
         <TextView
+            android:id="@+id/sleep_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/text_sleep" />
